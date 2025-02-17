@@ -315,15 +315,15 @@ X-API-KEY: YOUR_API_KEY
 
 #### Request:
 
+```bash
 GET /api/users
-
-````
+```
 
 #### Headers:
 
 ```text
 X-API-KEY: YOUR_API_KEY
-````
+```
 
 #### Response:
 
@@ -484,7 +484,7 @@ DB_USERNAME=your_db_user
 DB_PASSWORD=your_db_password
 ```
 
-Lalu jalankan migration:
+Run migration:
 
 ```bash
 php artisan migrate
@@ -496,4 +496,4 @@ php artisan migrate
 php artisan serve
 ```
 
-API akan berjalan di `http://127.0.0.1:8000`
+API will be available at `http://127.0.0.1:8000`
